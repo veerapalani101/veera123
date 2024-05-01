@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+bgimg{
+    background-color: cadetblue;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+background-image: url(assets/photo-1511406361295-0a1ff814c0ce.avif);
+color: white;
+padding: 50px 20px;
+width: 80vw;
+height: 100vh;
+}
+.left h1{
+    font-size: 100px;
+    padding: 5px 0px ;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.left small{
+    margin-top: 10px;
+}
+.left p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.btn-group button{
+    display: inline;
+}
+.btn-group .facebook{
+    margin-right: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.btn-group .twitter{
+    margin-right: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+body{
+    font-family: sans-serif;
+}
+
+.right h3{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    padding: 10px 10px;
+}
+.right p{
+color: gray;
+margin-left: 25px;
+}
+.right span{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.input1{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px ;
+    border-bottom: 1px solid grey;
+    margin-top: 40px;
+    width: 500px;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 25px;
+}
+.input2{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px ;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom:20px;
+    width: 500px;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 25px;
+}
+.re{
+    margin-top: 60px;
+    margin-left: 25px;
+}
+.forget{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+.forget p{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: grey;
+}
+.button{
+    border: none;
+    margin-top: 5px;
+    background-color: lightgreen;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    position: relative;
+    left: 310px;
+}
+   
+
